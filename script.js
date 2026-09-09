@@ -111,7 +111,7 @@ function agendarCtaVsl() {
 }
 
 function showQuestion(questionNumber) {
-    setProgress(questionNumber * 8.3334);
+    setProgress(questionNumber * 10);
 
     // Esconde todos os quizzes
     for (let i = 1; i <= 17; i++) {
